@@ -25,14 +25,14 @@ Configuration
 base = [{
 	name: 'radius',
 	default: 150,
-	min: 1,
+	min: 150,
 	max: 300,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lineCount',
 	default: 100,
-	min: 3,
+	min: 100,
 	max: 200,
 	step: 1,
 	randomize: 1
@@ -45,22 +45,22 @@ base = [{
 	randomize: 1
 }, {
 	name: 'length',
-	default: 10,
-	min: 1,
+	default: 50,
+	min: 50,
 	max: 100,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lengthMove',
-	default: 10,
-	min: 0,
+	default: 500,
+	min: 50,
 	max: 100,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'offset',
-	default: 1,
-	min: 0,
+	default: 50,
+	min: 50,
 	max: 100,
 	step: 1,
 	randomize: 1
@@ -328,11 +328,11 @@ var NERDDISCO_audio = new ndAudio({
 
 /**
  * Audio Input Element
- */
+
 var NERDDISCO_audioInput = new ndAudioInput({
 	element: document.getElementById('audioInput')
 });
-
+ */
 /**
  * SoundCloud connector
  */
