@@ -1,7 +1,7 @@
 function ndAudio(args) {
   
 
-  this.mediaElement.crossOrigin = 'anonymous';
+  
 
   // Set AudioContext
   window.AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -30,7 +30,7 @@ function ndAudio(args) {
   
   // Enable crossOrigin requests
   // @see https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_settings_attributes
-  
+  this.mediaElement.crossOrigin = 'anonymous';
 
   // The source for the mediaElement
   this.mediaElement_src = args.mediaElement_src || null;
