@@ -308,7 +308,7 @@ function calculate(opt) {
 	// Calculate the average
 	average = Math.ceil(average / opt.ranges.length);
 
-	// Use the average value if it's higher than the default value
+	// Use the average value if its higher than the default value
 	if (average >= default_config[opt.config].min && average >= opt.trigger) {
 		config[opt.config] = default_config[opt.config].max / 255 * average;
 
