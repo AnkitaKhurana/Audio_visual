@@ -1,7 +1,7 @@
 
 
 <!--
-Copyright (c) 2017 by Ankita Khurana  (https://codepen.io/AnkitaKhurana/pen/zPBjzY)
+Copyright (c) 2017 by Captain Anonymous (https://codepen.io/anon/pen/yPJzMe)
 
 
 Fork of an original work by Tim Pietrusky (https://codepen.io/TimPietrusky/pen/jrPRZR)

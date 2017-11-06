@@ -25,34 +25,34 @@ Configuration
 base = [{
 	name: 'radius',
 	default: 150,
-	min: 150,
+	min: 1,
 	max: 300,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lineCount',
 	default: 100,
-	min: 100,
+	min: 3,
 	max: 200,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lineWidth',
 	default: 3,
-	min: 3,
+	min: 1,
 	max: 6,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'length',
-	default: 50,
-	min: 50,
+	default: 10,
+	min: 1,
 	max: 100,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lengthMove',
-	default: 50,
+	default: 10,
 	min: 0,
 	max: 100,
 	step: 1,
@@ -60,7 +60,7 @@ base = [{
 }, {
 	name: 'offset',
 	default: 1,
-	min: 50,
+	min: 0,
 	max: 100,
 	step: 1,
 	randomize: 1
@@ -80,14 +80,14 @@ base = [{
 	randomize: 1
 }, {
 	name: 'pulse',
-	default: 0.05,
+	default: 0,
 	min: 0,
 	max: 0.2,
 	step: 0.001,
 	randomize: 1
 }, {
 	name: 'hueBase',
-	default: 150,
+	default: 30,
 	min: 0,
 	max: 360,
 	step: 1,
@@ -335,7 +335,8 @@ var NERDDISCO_audioInput = new ndAudioInput({
 
 /**
  * SoundCloud connector
- 
+ */
+ /*
 var NERDDISCO_soundcloud = new ndSoundcloud({
 	ndAudio: NERDDISCO_audio,
 	clientID: 'dce5652caa1b66331903493735ddd64d',

@@ -41,7 +41,7 @@ function ndAudio(args) {
   // Connect the audioSource with the audioAnalyzer
   this.audioSource.connect(this.audioAnalyser);
 
-  // Connect the audioAnalyzer with the audioContexts destination (e.g. speaker)
+  // Connect the audioAnalyzer with the audioContext's destination (e.g. speaker)
   this.audioAnalyser.connect(this.audioContext.destination);
   
 } // / ndAudio
@@ -58,12 +58,12 @@ ndAudio.prototype = {
    */
   updateMediaElement : function(mediaElement_src) {
 
-    // Update the mediaElements source
+    // Update the mediaElement's source
     this.mediaElement_src = mediaElement_src;
 
     // Update the src attribute of the mediaElement
     this.mediaElement.setAttribute('src', this.mediaElement_src);
-    //console.log(this.mediaElement_src);
+
     // Set the volume of the mediaElement
     this.mediaElement.volume = this.mediaElement_volume;
 
