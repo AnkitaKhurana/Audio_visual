@@ -25,34 +25,34 @@ Configuration
 base = [{
 	name: 'radius',
 	default: 150,
-	min: 1,
+	min: 150,
 	max: 300,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lineCount',
 	default: 100,
-	min: 3,
+	min: 100,
 	max: 200,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lineWidth',
 	default: 3,
-	min: 1,
+	min: 3,
 	max: 6,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'length',
-	default: 10,
-	min: 1,
+	default: 50,
+	min: 50,
 	max: 100,
 	step: 1,
 	randomize: 1
 }, {
 	name: 'lengthMove',
-	default: 10,
+	default: 50,
 	min: 0,
 	max: 100,
 	step: 1,
@@ -60,7 +60,7 @@ base = [{
 }, {
 	name: 'offset',
 	default: 1,
-	min: 0,
+	min: 50,
 	max: 100,
 	step: 1,
 	randomize: 1
@@ -80,14 +80,14 @@ base = [{
 	randomize: 1
 }, {
 	name: 'pulse',
-	default: 0,
+	default: 0.05,
 	min: 0,
 	max: 0.2,
 	step: 0.001,
 	randomize: 1
 }, {
 	name: 'hueBase',
-	default: 30,
+	default: 150,
 	min: 0,
 	max: 360,
 	step: 1,
